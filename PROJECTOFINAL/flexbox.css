@@ -1,0 +1,68 @@
+/* Selector Global */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --cor-branca: rgba(255, 255, 255, 0.973);
+    --verde-escuro: #049A40;
+    --verde-claro: #32fc83;
+    --fundo-branco: #fff;
+    --tipo-de-letra: "Nunito", Helvetica, arial, sans-sarif;
+}
+
+body{
+    background-color: var(--fundo-branco);
+}
+
+hr{
+    border: none;
+    background-color: var(--cor-branca);
+    background-position: left;
+    height: 50px;
+    width: 2px;
+    margin: auto 10px;
+}
+
+.hr{
+    border: none;
+    background-color: var(--verde-escuro);
+    height: 2px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.servico_corpo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.servico{
+    width: 280px;
+    margin: 15px 20px;
+}
+.servico_titulo{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0 5px 0;
+}
+.servico_img{
+    display: block;
+    max-width:100%;
+    border-radius: 0.1cm;
+    padding: none;
+}
+.servico_descricao{
+    font-family: var(--tipo-de-letra);
+    text-align: justify;
+}
+.fundo_servicos{
+    background-color: var(--cor-branca);
+    background-color: var(--verde-claro);
+}
+.sobrenos{
+    font-family: var(--tipo-de-letra);
+    text-align: justify;
+}
